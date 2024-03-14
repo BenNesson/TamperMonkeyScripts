@@ -1,0 +1,3 @@
+function uum() {
+  alert("uum");
+}
