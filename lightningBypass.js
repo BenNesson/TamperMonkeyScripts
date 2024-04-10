@@ -38,8 +38,8 @@ function createLightningBypass() {
 
   return {
     filterKeys: _filterKeys,
-    get propertyTempSuffix() { return _tmpSuffix; },
-    set propertyTempSuffix(value) { _tmpSuffix = value; },
+    get propertyTempSuffix() { return tmpSuffix; },
+    set propertyTempSuffix(value) { tmpSuffix = value; },
     bypass: _bypass,
   };
 }
